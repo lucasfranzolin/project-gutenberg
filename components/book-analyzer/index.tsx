@@ -86,7 +86,7 @@ export function BookAnalyzer() {
                 className="w-full"
               />
               <p className="text-xs text-slate-500 mt-1">
-                Example: {DEFAULT_BOOK.id} for "{DEFAULT_BOOK.title}"
+                Example: {DEFAULT_BOOK.id} for {`"${DEFAULT_BOOK.title}"`}
               </p>
             </div>
             <div className="flex items-end">
