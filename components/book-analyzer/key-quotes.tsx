@@ -36,7 +36,7 @@ export function KeyQuotes() {
               </Badge>
             </div>
             <blockquote className="border-l-4 border-slate-200 pl-4 italic">
-              ❝ {quote.text} ❞
+              &quot; {quote.text} &quot;
             </blockquote>
             <p className="text-sm text-slate-600">{quote.context}</p>
           </div>
