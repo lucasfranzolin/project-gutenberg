@@ -109,7 +109,7 @@ export function BookAnalyzer() {
       {state.analysis && !state.isLoading && (
         <div className="space-y-6">
           <h2 className="text-2xl font-bold text-slate-800">
-            Analysis of "{state.bookTitle}"
+            Analysis of {`"${state.bookTitle}"`}
           </h2>
 
           <Tabs
